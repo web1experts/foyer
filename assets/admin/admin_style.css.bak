@@ -1,0 +1,225 @@
+#quickForm img.selected-img {
+    width: 30px;
+}
+.form-group {
+    margin-bottom: 4px;
+}
+.modal-dialog {
+    margin: 6px auto;
+}
+.modal-dialog.graphic_modal {
+    margin: 10em auto;
+}
+button#save_data {
+    margin-top: 6px;
+}
+#quickForm label {
+    margin-bottom: 4px;
+}
+.graphic_modal .filtr-item {
+    border: 1px solid #f3f3f3;
+    border-radius: 0px;
+    box-shadow: 1px 1px 2px 1px #bbbaba;
+    margin: 0 10px;
+    padding: 10px;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.insert_modalbox img.card-img-top {
+    width: 100px;
+}
+a.team_applied.btn.btn-sm.btn-info {
+    margin-bottom: 4px;
+}
+.ui-sortable img.card-img-top {
+    width: 100px;
+}
+/* .ui-sortable div#\31 0 {
+    box-shadow: none;
+} */
+
+.ui-sortable-handle {
+    
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 20px;
+    display: inline-block;
+    height: auto;
+    margin: 0 0 10px 4px;
+	text-align: center;
+}  
+#edit_result_sts .alert .close {
+    text-decoration: none !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    font-weight: normal;
+    text-shadow: none;
+}
+#graphicModal .card-img-top {
+    margin-bottom: 0px !important;
+}
+#graphicModal #card-group {
+    margin-top: 10px !important;
+}
+
+.card-body .filtr-item .dlt-btn {
+    float: right;
+    opacity: 0;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+	width: 30px;
+    height: 28px;
+}
+.card-body .filtr-item:hover .dlt-btn {
+    opacity: 1;
+	transition: 2s;
+}
+.card-body .filtr-item .edit_btn {
+    float: right;
+    opacity: 0;
+    position: absolute;
+    right: 24px;
+    top: -10px;
+    width: 30px;
+    height: 28px;
+}
+.card-body .filtr-item:hover .edit_btn {
+    opacity: 1;
+	transition: 2s;
+}
+.card-body .filtr-item span.icon-title {
+    display: none;
+}
+.card-body .filtr-item {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+	cursor: pointer;
+  background: #dcdcdc;
+}
+
+
+.form-group input[type=file]::-ms-browse {
+  border: 2px solid #007bff;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bookmark_tabs li.active {
+    background: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+    color: #fff !important;
+}
+.bookmark_tabs li.active a {
+    color: #fff;
+}
+
+.form-group input[type=file]::-webkit-file-upload-button {
+  border: 2px solid #007bff;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #007bff;
+  transition: 1s;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-group input[type=file]::file-selector-button {
+  border: 2px solid #007bff;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #007bff;
+  transition: 1s;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-group input[type=file]::-ms-browse:hover {
+  background-color: #0069d9;
+  border: 2px solid #0069d9;
+  
+}
+
+.form-group input[type=file]::-webkit-file-upload-button:hover {
+  background-color: #0069d9;
+  border: 2px solid #0069d9;
+ 
+}
+
+.form-group input[type=file]::file-selector-button:hover {
+  background-color: #0069d9;
+  border: 2px solid #0069d9;
+ 
+}
+
+.modal .modal-header {
+    background: #007bff;
+    border-radius: 0;
+    color: #fff;
+}
+.modal .modal-header .close, .modal .modal-header .mailbox-attachment-close {
+    color: #fff !important;
+    opacity: 1;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+.graphic_modal #card-group {
+    margin-top: 10px !important;
+}
+.modal .modal-content {
+    border-radius: 0;
+}
+.breadcrumb .breadcrumb-item {
+    color: #fff;
+    background-color: #626262;
+    border-color: #626262;
+    box-shadow: none;
+    padding: 5px 15px;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.btn{
+    color: #fff !important;
+    background-color: #007bff;
+    border-color: #007bff;
+box-shadow: none; }
+
+.btn:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.bookmark_tabs li {
+    border: 1px solid #0083ff;
+    padding: 0;
+}
+.ui-sortable a#bookmark {
+    display: flex;
+    align-items: center;
+}
+.bookmark_tabs, ul#tabs-list {
+    margin-right: 20px !important;
+    display: block;
+}
+ul.graphics_list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-flow: row wrap;
+}
+.graphics_details img {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,130 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+html,
+body {
+	background-image: url("./images/login_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	font-family: "Numans", sans-serif;
+}
+
+.container {
+	height: 100%;
+	align-content: center;
+}
+
+.card {
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span {
+	font-size: 60px;
+	margin-left: 10px;
+	color: #4e11ac;
+}
+
+.social_icon span:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.social_icon span i {
+	font-size: 35px;
+}
+
+.card-header h3 {
+	color: white;
+}
+
+.social_icon {
+	position: absolute;
+	right: 20px;
+	top: -55px;
+}
+
+.input-group-prepend span {
+	width: 45px;
+	background-color: #4e11ac;
+	color: #ffffff;
+	border: 0 !important;
+	text-align: center;
+	display: inline-block;
+}
+
+input:focus {
+	outline: 0 0 0 0 !important;
+	box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+	color: white;
+}
+
+.remember input {
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.login_btn {
+	color: #ffffff;
+	background-color: #4e11ac;
+	width: 100px;
+}
+
+.login_btn:hover {
+	color: black;
+	background-color: white;
+}
+
+.links {
+	color: white;
+}
+
+.links a {
+	margin-left: 4px;
+}
+
+
+#accordion div {
+    margin-bottom: 5px;
+}
+
+/*.card_gmail .card-header {
+    background: #4e11ac;
+    padding: 0.4rem 1.25rem;
+}*/
+
+.card_gmail h4 a {
+    text-align: center;
+}
+
+.card_gmail i {
+    background: #d64135;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 50px;
+    padding: 20px 15px;
+}
+
+.card_email .card-header {
+    background: #dc3545;
+    padding: 0.4rem 1.25rem;
+}
+
+
+.card-header a.manual_login {
+    text-align: right;
+    display: inline-block;
+    width: 78%;
+    font-size: 17px;
+    color: #fff;
+}
